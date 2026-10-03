@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "kitauto",
+  "version": "${version}",
+  "name": "Kit Auto",
+  "description": "Client-side timer helper: on a key press, repeats /kit + the kit-GUI clicks every 63s from the last send.",
+  "authors": [
+    "you"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "pl.kitauto.KitAutoClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.4",
+    "fabric-api": "*"
+  }
+}
